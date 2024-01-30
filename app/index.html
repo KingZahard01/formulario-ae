@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Formulario</title>
+    <!-- custom css -->
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <!-- hacer un formulario y una tabla -->
+    <div class="form">
+      <form action="" method="post">
+        <ul>
+          <li>
+            <label for="name">Nombre:</label>
+            <input
+              type="text"
+              name="user-name"
+              id="name"
+              placeholder="Ingrese su nombre"
+              required
+            />
+          </li>
+          <li>
+            <label for="description">Descripcion:</label>
+            <textarea
+              name="user-description"
+              id="description"
+              cols="20"
+              rows="1"
+            ></textarea>
+          </li>
+          <li>
+            <label for="company">Empresa:</label>
+            <select name="user-company" id="company">
+              <option value="">Seleccione</option>
+            </select>
+          </li>
+          <li>
+            <label for="ine">INE:</label>
+            <input type="text" name="user-ine" id="ine" />
+          </li>
+          <li>
+            <label for="curp">CURP:</label>
+            <input type="text" name="user-curp" id="curp" />
+          </li>
+          <li>
+            <label for="rfc">RFC:</label>
+            <input type="text" name="user-rfc" id="rfc" />
+          </li>
+          <li>
+            <label for="nss">NSS:</label>
+            <input type="text" name="user-nss" id="nss" />
+          </li>
+          <li>
+            <label for="blood">Tipo de sangre:</label>
+            <select name="user-blood" id="blood">
+              <option value="blood-name">Seleccione</option>
+            </select>
+          </li>
+          <li>
+            <label for="license">Licencia:</label>
+            <input type="text" name="user-license" id="license" />
+          </li>
+          <li>
+            <label for="validity">Vigencia:</label>
+            <input type="date" name="user-validity" id="validity" />
+          </li>
+          <li>
+            <label for="phone">Telefono:</label>
+            <input type="text" name="user-phone" id="phone" />
+          </li>
+          <li>
+            <label for="photo">Foto:</label>
+            <input type="file" name="user-photo" id="img-input" />
+            <img id="img-show" src="#" alt="Vista previa de la foto" />
+          </li>
+          <li>
+            <label for="file">Expediente:</label>
+            <input type="file" name="user-file" id="file" />
+          </li>
+          <li>
+            <label for="actions">Acciones:</label>
+            <input type="submit" value="Save" />
+          </li>
+        </ul>
+      </form>
+    </div>
+
+    <!-- custom js -->
+    <script src="js/script.js"></script>
+  </body>
+</html>

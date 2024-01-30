@@ -1,0 +1,92 @@
+/* importar la font */
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&display=swap");
+
+/* Establecer el modelo de caja para incluir bordes en el ancho total */
+* {
+    box-sizing: border-box;
+    /* Sin márgenes ni rellenos por defecto en todos los elementos */
+    margin: 0;
+    padding: 0;
+}
+
+/* Aplicar un estilo básico al cuerpo del documento */
+body {
+    font-family: "Open Sans", sans-serif;
+    background-color: #f0f0f0;
+    margin-top: 20px;
+}
+
+/* Estilo para el contenedor principal del formulario */
+.form {
+    background-color: #fff;
+    width: 600px;
+    padding: 20px;
+    border-radius: 10px;
+    /* centra la tabla */
+    margin: auto;
+    border: 1px solid #ccc;
+}
+
+/* Estilo para la lista sin viñetas */
+ul {
+    list-style: none;
+}
+
+/* Estilo para cada elemento de la lista */
+li {
+    margin-bottom: 20px;
+}
+
+/* Estilo para etiquetas de formulario */
+label {
+    display: block;
+    font-weight: bold;
+    /* margin-bottom: 5px; */
+}
+
+/* Estilo para campos de entrada de texto y textarea */
+input[type="text"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+/* Estilo para campos de seleccion */
+select {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+input[type="date"] {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+input[type="submit"] {
+    background-color: #4caf50;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 4px;
+    margin-top: 5px;
+    display: block;
+}
